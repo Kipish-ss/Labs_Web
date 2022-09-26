@@ -1,0 +1,32 @@
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    background: rgb(250, 220, 100);
+}
+
+header {
+    padding: 1% 5%;
+    background: rgb(179, 143, 0);
+    max-height: max-content;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+ul.links {
+    display: inline-block;
+    text-align: center;
+}
+
+li {
+    font-size: 1.5em;
+}
