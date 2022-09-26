@@ -74,9 +74,22 @@ a:hover {
     flex-direction: column;
     width: 25%;
     background-color: #fde9d9;
-    text-align: center;
-    padding: 20px;
+    align-items: center;
     justify-content: center;
+}
+
+.products-list {
+    margin-top: 5px;
+    list-style-position: inside;
+
+}
+
+.side-left h2 {
+    margin-bottom: 5px;
+}
+
+.side-left p {
+    text-align: center;
 }
 
 .side-right {
@@ -141,15 +154,20 @@ a:hover {
     flex-direction: column;
 }
 
+.models-header {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .right-content-side p {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.right-content-side ol {
+.models-list {
     margin-top: 5px;
-    padding-left: 20px;
 }
 
 .right-content-top {
