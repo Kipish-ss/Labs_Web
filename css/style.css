@@ -4,6 +4,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 a:link {
