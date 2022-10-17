@@ -176,6 +176,7 @@ a:hover {
     min-height: 50px;
     background-color: wheat;
     padding-right: 10px;
+    justify-content: right;
 }
 
 .right-content-top p {
