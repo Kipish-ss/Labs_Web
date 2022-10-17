@@ -1,6 +1,6 @@
 body {
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    background-image: url("../img/network.jpeg");
+    background-image: url("../../img/network.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
@@ -51,18 +51,18 @@ a:hover {
     list-style-type: none;
     color: lightgray;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     font-size: 1em;
     padding: 5px;
     width: 100%;
 }
 
-.github-content {
-
+.index-header {
+    text-align: center;
 }
 
-.github-header {
-    text-align: center;
+.index-content {
+
 }
 
 .img-wrapper {
