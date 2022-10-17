@@ -4,6 +4,7 @@ html {
 
 body {
     height: 100%;
+    display: flex;
 }
 
 picture img {
@@ -86,6 +87,7 @@ a:hover {
 
 .side-left h2 {
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .side-left p {
@@ -94,7 +96,7 @@ a:hover {
 
 .side-right {
     flex-direction: column;
-    width: 75%;
+    width: 100%;
 }
 
 .header {
@@ -149,7 +151,6 @@ a:hover {
     max-width: 150px;
     background-color: #eaf1dd;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
@@ -174,8 +175,11 @@ a:hover {
     display: flex;
     min-height: 50px;
     background-color: wheat;
-    justify-content: right;
     padding-right: 10px;
+}
+
+.right-content-top p {
+    text-align: right;
 }
 
 .right-content-bottom {

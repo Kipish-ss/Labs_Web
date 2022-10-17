@@ -38,7 +38,6 @@ a:hover {
 
 .wrapper {
     display: grid;
-    /*flex-direction: column;*/
     height: 100%;
     grid-template-rows: 1fr auto;
 }
@@ -58,7 +57,6 @@ a:hover {
 }
 
 .footer-heading {
-    width: 40%;
     padding: 20px;
     margin-top: auto;
     margin-bottom: auto;
@@ -85,6 +83,7 @@ a:hover {
 
 .side-left h2 {
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .side-left p {
@@ -98,7 +97,6 @@ a:hover {
 
 .header {
     display: grid;
-    /*align-items: center;*/
     background-color: #c6d9f1;
     width: 100%;
     grid-template-columns: 1fr auto;
@@ -167,8 +165,11 @@ a:hover {
     display: grid;
     min-height: 50px;
     background-color: wheat;
-    justify-content: right;
     padding-right: 10px;
+}
+
+.right-content-top p {
+    text-align: right;
 }
 
 .right-content-bottom {
