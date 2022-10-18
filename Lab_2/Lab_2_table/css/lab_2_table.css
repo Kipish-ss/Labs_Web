@@ -1,0 +1,149 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+picture img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:link {
+    color: darkblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(206, 13, 13);
+}
+
+.footer {
+    background: #c6d9f1;
+    height: 117px;
+}
+
+.footer p {
+    padding: 5px;
+}
+
+.footer-slogan {
+    padding: 20px;
+    text-align: left;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.header {
+    background: #c6d9f1;
+}
+
+.header td {
+    height: 120px;
+}
+
+.header p {
+    padding: 5px;
+}
+
+.righttd {
+    text-align: right;
+}
+
+.products-list {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.products-list li {
+}
+
+.slogan {
+}
+
+.slogan td {
+    text-align: left;
+    height: 120px;
+}
+
+.slogan h1 {
+    margin: 0;
+    padding: 20px;
+    text-align: right;
+}
+
+.wide {
+    text-align: left;
+}
+
+.middle-heading {
+    padding-right: 10px;
+    min-height: 30px;
+    background-color: wheat;
+    height: 50px;
+}
+
+.product-name {
+    text-align: right;
+}
+
+.left-side {
+    background: #fde9d9;
+    padding: 20px;
+    text-align: center;
+}
+
+.right-side {
+    background: #eaf1dd;
+    text-align: center;
+}
+
+.models-list {
+    display: initial;
+    list-style-position: inside;
+    margin-top: 5px;
+}
+
+.right-side h2 {
+    margin-bottom: 5px;
+}
+
+.imgtd img {
+    max-height: 100px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: 100%;
+    table-layout: fixed;
+}
+
+td, th {
+    text-align: center;
+    padding: 0;
+}
