@@ -8,88 +8,107 @@
     <title>Lab 2 Table</title>
 </head>
 <body>
-<table class="iksweb">
-    <tbody>
-    <tr class="header">
-        <td rowspan="3" class="left-side">
-            <h2>Apple products:</h2>
-            <div class="rightoldiv">
-                <ul class="products-list">
-                    <li>Mac</li>
-                    <li>iPad</li>
-                    <li>iPhone</li>
-                    <li>Watch</li>
-                    <li>AirPods</li>
-                    <li>TV & Home</li>
-                </ul>
-            </div>
-            <p> Apple Inc. is an American multinational technology company that specializes in consumer electronics,
-                software and online services headquartered in Cupertino, California, United States.
-                It is one of the Big Five American information technology companies, alongside Alphabet,
-                Amazon, Meta, and Microsoft.</p>
-        </td>
-        <td colspan="3">
-            <table class="menu">
-                <tr>
-                    <td><a href="Lab_2_1.html">First page</a></td>
-                    <td><a href="Lab_2_2.html">Second page</a></td>
-                    <td><a href="Lab_2_3.html">Third page</a></td>
-                    <td><a href="#">Current page</a></td>
-                    <td><a href="Lab_2_5.html">Fifth page</a></td>
-                    <td><a href="../Lab_2.html">Back</a></td>
-                </tr>
+<table class="wrapper-table">
+    <tr>
+        <td class="upper-side">
+            <table>
+                <td class="left-side">
+                    <h2>Apple products:</h2>
+                    <ul class="products-list">
+                        <li>Mac</li>
+                        <li>iPad</li>
+                        <li>iPhone</li>
+                        <li>Watch</li>
+                        <li>AirPods</li>
+                        <li>TV & Home</li>
+                    </ul>
+                    <p>Apple Inc. is an American multinational technology company that specializes in consumer
+                        electronics,
+                        software and online services headquartered in Cupertino, California, United States.
+                        It is one of the Big Five American information technology companies, alongside Alphabet,
+                        Amazon, Meta, and Microsoft.</p>
+                </td>
+                <td class="right-content">
+                    <table>
+                        <tr>
+                            <td class="header" colspan="6">
+                                <table>
+                                    <td>
+                                        <table class="menu-list">
+                                            <td class="menu-list-item"><a href="Lab_2_1.html">First page</a></li></td>
+                                            <td class="menu-list-item"><a href="Lab_2_2.html">Second page</a></td>
+                                            <td class="menu-list-item"><a href="Lab_2_3.html">Third page</a></td>
+                                            <td class="menu-list-item"><a href="#">Current page</a></td>
+                                            <td class="menu-list-item"><a href="Lab_2_5.html">Fifth page</a></td>
+                                            <td class="menu-list-item"><a href="../Lab_2.html">Back</a></td>
+                                            </ul>
+                                        </table>
+                                    </td>
+                                    <td class="header-slogan">
+                                        <h1>Think different</h1>
+                                    </td>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="right-content-center" colspan="5">
+                                <table>
+                                    <tr>
+                                        <td class="center-top">
+                                            <p><b>Apple Watch</b></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="center-bottom">
+                                            <map name="infographic">
+                                                <area shape="poly" coords="130,147,200,107,254,219,130,228"
+                                                      href="https://developer.mozilla.org/docs/Web/HTML"
+                                                      target="_blank" alt="HTML"/>
+                                                <area shape="poly" coords="130,147,130,228,6,219,59,107"
+                                                      href="https://developer.mozilla.org/docs/Web/CSS"
+                                                      target="_blank" alt="CSS"/>
+                                                <area shape="poly" coords="130,147,200,107,130,4,59,107"
+                                                      href="https://developer.mozilla.org/docs/Web/JavaScript"
+                                                      target="_blank" alt="JavaScript"/>
+                                            </map>
+                                            <img usemap="#infographic" src="./img/pyramid.png" alt="MDN infographic"/>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td class="right-side">
+                                <h2>Apple Watch models:</h2>
+                                <ol class="models-list">
+                                    <li>Apple Watch Ultra</li>
+                                    <li>Apple Watch Series 8</li>
+                                    <li>Apple Watch SE</li>
+                                    <li>Apple Watch Nike</li>
+                                    <li>Apple Watch Hermès</li>
+                                </ol>
+                                <a href="https://www.apple.com/apple-watch-ultra/" target="_blank">
+                                    <picture class="img-wrapper">
+                                        <img src="./img/watch.jpeg" alt="Apple Watch Ultra">
+                                    </picture>
+                                </a>
+                                <p><b>Apple Watch Ultra</b></p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
             </table>
         </td>
-        <td class="slogan">
-            <h1>Think different</h1>
-        </td>
     </tr>
     <tr>
-        <td class="middle-heading" colspan="3">
-            <p class="product-name"><b>Apple Watch</b></p>
-        </td>
-        <td rowspan="2" class="right-side">
-            <h2>Apple Watch models:</h2>
-            <ol class="models-list">
-                <li>Apple Watch Ultra</li>
-                <li>Apple Watch Series 8</li>
-                <li>Apple Watch SE</li>
-                <li>Apple Watch Nike</li>
-                <li>Apple Watch Hermès</li>
-            </ol>
-            <a href="https://www.apple.com/apple-watch-ultra/" target="_blank">
-                <picture class="img-wrapper">
-                    <img src="./img/watch.jpeg" alt="Mac">
-                </picture>
-            </a>
-            <p><b>Apple Watch Ultra</b></p>
+        <td class="footer">
+            <table>
+                <td>
+                    <h1 class="footer-heading">It's a revolution, Johny!</h1>
+                </td>
+                <td>
+                    <p class="footer-paragraph">Apple website: <a href="https://apple.com" target="_blank">apple</a></p>
+                </td>
+            </table>
         </td>
     </tr>
-    <tr>
-        <td colspan="3" class="wide">
-            <map name="infographic">
-                <area shape="poly" coords="130,147,200,107,254,219,130,228"
-                      href="https://developer.mozilla.org/docs/Web/HTML"
-                      target="_blank" alt="HTML"/>
-                <area shape="poly" coords="130,147,130,228,6,219,59,107"
-                      href="https://developer.mozilla.org/docs/Web/CSS"
-                      target="_blank" alt="CSS"/>
-                <area shape="poly" coords="130,147,200,107,130,4,59,107"
-                      href="https://developer.mozilla.org/docs/Web/JavaScript"
-                      target="_blank" alt="JavaScript"/>
-            </map>
-            <img usemap="#infographic" src="./img/pyramid.png" alt="MDN infographic"/>
-        </td>
-    </tr>
-    <tr class="footer">
-        <td class="footer-slogan" colspan="4">
-            <h1>It's a revolution, Johny!</h1>
-        </td>
-        <td class="righttd">
-            <p>Apple website: <a href="https://apple.com" target="_blank">apple</a></p>
-        </td>
-    </tr>
-    </tbody>
 </table>
 </body>
-</html>
